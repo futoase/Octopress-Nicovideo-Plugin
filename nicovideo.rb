@@ -3,7 +3,6 @@
 require 'open-uri'
 require 'rexml/document'
 
-TEMPLATE = '<script type="text/javascript" src="http://ext.nicovideo.jp/thumb_watch/%s"></script><noscript><a href="http://www.nicovideo.jp/watch/%s">%s</a></noscript>'
 API_BASE = 'http://ext.nicovideo.jp/api/getthumbinfo/'
 
 module Jekyll
